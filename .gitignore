@@ -1,0 +1,9 @@
+# Editor Trash
+*~
+\#*\#
+
+# Jekyll Generated
+_site
+
+# Git
+*.orig
