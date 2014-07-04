@@ -5,9 +5,6 @@ date:   2014-07-4 08:00:00
 categories: general, js, web
 ---
 
-MeteorJS
-========
-
 [MeteorJS](https://www.meteor.com/) is an opinionated and evolving
 framework for building web applications.  Meteor is an ambitious and
 opinionated framework that spans both the server and the client with a
@@ -26,7 +23,7 @@ I have had the opportunity to work on several small and one large
 meteor project over the course of the past year or so.
 
 The Good
-========
+--------
 
 Meteor is truly exciting due to the ease with which it makes
 performing many traditionally difficult tasks in web development.
@@ -46,7 +43,7 @@ Meteor also has a few other strengths:
    [meteor atmosphere](https://atmospherejs.com/)
 
 The Not Good
-============
+------------
 
 At the end of the day, most of my complaints with most technology is
 that they do not help prograemmers solve the truly difficult problem
@@ -56,8 +53,7 @@ way that I and others can maintain.
 
 To that end, here are some of my concrete problems with meteor.
 
-Javascript
-----------
+### Javascript
 
 Javascript is apparently the new hotness.  Truth be told, I don't like
 javascript.  The lack of a real module system amongst other things
@@ -71,8 +67,7 @@ add syntactic sugar.  They do not, however, really change the fact
 that you are writing and interacting with javascript.  At the end of
 the day, this is what you are debugging... Speaking of which...
 
-Debugging
----------
+### Debugging
 
 Simply put, debugging (with an actual debugger or REPL) on the server
 side is damn near impossible.  Debugging on the client works well
@@ -83,8 +78,8 @@ And with meteor, I have found myself in a position where debugging on
 both the server and the client is something I spend far too much of my
 time doing.
 
-MongoDB
--------
+### MongoDB
+
 
 The only supported data store right now is MongoDB.  Although
 non-relational databases have advantages in some cases, I believe that
@@ -101,8 +96,7 @@ given collection is essentially ad-hoc.
 And with meteor, you just need to suck it up and use what is likely
 not the right technology for your project.
 
-Implicit Behavior
------------------
+### Implicit Behavior
 
 Meteor is an opinionated framework.  I have never been a big fan of
 frameworks (especially large, opinionated ones) as they push a bunch
@@ -118,29 +112,29 @@ control I felt I needed to manage my applications are documented here.
 Philosophically, I tend to believe there is great wisdom in the [Zen
 of Python](http://legacy.python.org/dev/peps/pep-0020/) which states:
 
-> Beautiful is better than ugly.
-> Explicit is better than implicit.
-> Simple is better than complex.
-> Complex is better than complicated.
-> Flat is better than nested.
-> Sparse is better than dense.
-> Readability counts.
-> Special cases aren't special enough to break the rules.
-> Although practicality beats purity.
-> Errors should never pass silently.
-> Unless explicitly silenced.
-> In the face of ambiguity, refuse the temptation to guess.
-> There should be one-- and preferably only one --obvious way to do it.
-> Although that way may not be obvious at first unless you're Dutch.
-> Now is better than never.
-> Although never is often better than *right* now.
-> If the implementation is hard to explain, it's a bad idea.
-> If the implementation is easy to explain, it may be a good idea.
-> Namespaces are one honking great idea -- let's do more of those!
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
 
 Right in the second line we see that "Explicit is better than implicit"
 
-### File Import and Load Order
+#### File Import and Load Order
 
 Javascript did not get the memo about namespaces being "one honking
 great idea" and as such, there is really no such thing built into the
@@ -158,7 +152,7 @@ is easier said then done and is once again pushing the problem onto
 the programmer.  More than once, I had to change the name of files
 just to make something function correctly.  I find that ludicrous.
 
-### Under the Covers
+#### Under the Covers
 
 Meteor hides, or tries to hide, a lot of the complexity required for
 it to provide its reactive programming model.  The problem is that in
@@ -189,8 +183,7 @@ going on failed me were the following:
   transparent fashion has led to things not always working as expected
   on the server.
 
-Security
---------
+### Security
 
 By default, meteor is not secure as [well
 documented](http://docs.meteor.com/#dataandsecurity) in the meteor
