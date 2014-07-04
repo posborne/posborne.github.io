@@ -23,7 +23,6 @@ I have had the opportunity to work on several small and one large
 meteor project over the course of the past year or so.
 
 The Good
-
 --------
 
 Meteor is truly exciting due to the ease with which it makes
