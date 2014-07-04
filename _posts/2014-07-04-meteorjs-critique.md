@@ -33,6 +33,7 @@ marketing documentation, one cannot help but get excited about being
 able to seamlessly react to changes to collections.
 
 Meteor also has a few other strengths:
+
 1. Javascript on both the server and the client and the ability to
    share some code between the two.
 2. If you neeed live page updates, meteor has a very compelling model
@@ -173,7 +174,6 @@ going on failed me were the following:
   state correctly can be very difficult.  Do I make things look
   successful to the user only to take it back later?  That seems
   cruel.
-
 * Things don't always act the same on the client and the server.  In
   many cases (for instance, when using
   [CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS))
